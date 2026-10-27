@@ -28,8 +28,8 @@ try:
     with st.chat_message(name="ai", avatar='🥰'): 
         st.write("Welcome to Hannah and Leah's API AI. Ask away in the box below to get details regarding recipes. If you ask anything else, I, the GREAT Robot Chef, will instead continue redirecting you towards the API.")
     
-    key = st.secrets["MY_KEY"]
-    genai.configure(api_key=API_KEY)
+    key = st.secrets["API_KEY"]
+    genai.configure(api_key=key)
     model = genai.GenerativeModel("gemini-1.5-flash")
     
     if promptChar:
