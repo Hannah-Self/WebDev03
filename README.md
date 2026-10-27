@@ -16,3 +16,7 @@ From what I remember, I believe this particular project is the one I created wit
 We took the free API details from https://www.themealdb.com/api.php to display on our website, which has three sections. 
 
 We have a rough AI implementation as well as a page to display the meal details of our choosing based on the API. 
+
+## API Key details
+
+I've rotated the api-key because the old one (now deleted) was compromised. TO Leah: access via secrets repo section (otherwise use st.secrets("API_KEY"))
