@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 import requests as rq
 
-key = st.secrets["MY_KEY"]
+key = st.secrets["API_KEY"]
 genai.configure(api_key=key)
 
 model = genai.GenerativeModel("gemini-1.5-flash") #this is the free model of google gemini
